@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(117, 183, 236);
+    font-family: 'Helvetica Neue';
+}
+
+a {
+    text-decoration: none;
+}
+
+.iklan {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    background: linear-gradient(to right bottom, rgb(12, 36, 97, 1.0), rgb(8, 28, 81, 0.4));
+    padding: 60px;
+    background-color: rgb(24, 22, 22);
+    border-radius: 40px;
+    margin-top: 12px;
+}
+
+.main-iklan h1 {
+    margin: -10px;
+    font-size: 70px;
+
+}
+
+.main-iklan h1 span {
+    color: rgb(19, 48, 126);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.main-iklan h2 {
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.ongkir {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    width: 50%;
+    top: 60px;
+    right: 0px;
+    bottom: 120px;
+}
+
+.ongkir span {
+    display: inline-block;
+    margin-top: 40px;
+    float: right;
+    color: rgb(19, 48, 126);
+    font-size: 25px;
+}
+
+.ongkir p {
+    float: left;
+    font-weight: bold;
+    font-size: 60px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.promo {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.promo p {
+    float: left;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+}
+
+.promo a {
+    float: right;
+    font-size: 30px;
+    padding: 10px;
+    margin: 25px;
+    color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    border: 2px solid rgba(24, 44, 97, 0.6);
+}
+
+.promo a:hover {
+    opacity: 1;
+    background-color: rgba(24, 44, 97, 1.0);
+}
+
+
+.contents {
+    position: relative;
+    height: 670px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 1170px;
+    width: 100%;
+}
+
+.contents-item h2 {
+    padding-top: 15px;
+    width: 350px;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-item img {
+    height: 220px;
+    width: 350px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.contents-item p {
+    font-size: 14px;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+
+.contents-item a {
+    padding: 12px 24px;
+    color: rgb(2, 2, 2);
+    display: inline-block;
+    opacity: 0.8;
+    background-color: #74b9ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 7px #55acee;
+    border-radius: 7px;
+}
+
+.contents-item a:hover {
+    opacity: 1;
+}
+
+.contents-item a:active {
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+}
+
+.contents-segment {
+    display: inline-block;
+    background-color: #f5f6fa;
+    margin-right: 30px;
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.contents-segment:hover {
+    box-shadow: 10px 10px #b2bec3;
+    opacity: 1;
+}
+
+.foot-items {
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer {
+    position: relative;
+    display: flex;
+}
+
+.tempat-logo {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 100px;
+    margin-bottom: 120px;
+}
+
+.copy-container {
+    width: 1170px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right bottom, rgb(12, 36, 97, 1.0), rgb(8, 28, 81, 0.4));
+    padding: 0px;
+    margin-bottom: 80px;
+    background-color: rgb(24, 22, 22);
+    border-radius: 40px;
+}
+
+.tempat-logo img {
+    height: 200px;
+    width: 200px;
+    margin-left: 45%;
+
+
+}
+
+.contents-foot {
+    position: relative;
+    display: flex;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 60px;
+
+}
+
+.btn {
+    padding-top: 100px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.facebook {
+    width: 25%;
+    position: relative;
+    background-color: rgb(19, 48, 126);
+    letter-spacing: 2px;
+    margin-right: 10px;
+    padding: 20px 110px;
+
+}
+
+.twitter {
+    width: 25%;
+    position: relative;
+    background-color: rgb(19, 48, 126);
+    letter-spacing: 2px;
+    margin-right: 10px;
+    padding: 20px 110px;
+}
+
+.youtube {
+    width: 25%;
+    position: relative;
+    background-color: rgb(19, 48, 126);
+    letter-spacing: 2px;
+    margin-right: 10px;
+    padding: 20px 110px;
+}
+
+.instagram {
+    width: 25%;
+    position: relative;
+    background-color: rgb(19, 48, 126);
+    letter-spacing: 2px;
+    padding: 20px 110px;
+}
